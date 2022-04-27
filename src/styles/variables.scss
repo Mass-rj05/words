@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "GemunuLibre";
+    src: local("GemunuLibre-"), url(../assets//fonts/GemunuLibre-Regular.ttf);
+  }
+  @font-face {
+    font-family: "GemunuLibre";
+    font-weight: 600;
+    src: local("GemunuLibre"), url(../assets//fonts/GemunuLibre-Medium.ttf);
+  }
+  @font-face {
+    font-family: "GemunuLibre";
+    font-weight: 900;
+    src: local("GemunuLibre"), url(../assets//fonts/GemunuLibre-Bold.ttf);
+  }
+
+  $background: #302e2e;
+  $white: white;
+  $green: #62FF50;
+
+  @mixin flex($justyfy, $align, $direciton){
+      display: flex;
+      justify-content:$justyfy;
+      align-items: $align;
+      flex-direction: $direciton;
+  }
